@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HealthCheck</string>
+    <string name="chao1">Chào mừng bạn đến với Health Check</string>
+    <string name="batdau">Bắt Đầu</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="thoat">Thoát</string>
+    <string name="chao2">Cảm ơn các bạn đã sử dụng ứng dụng của chúng tôi. BMI (Body Mass Index) là chỉ số dùng cân nặng tính bằng ki-lô-gram (kg) của một người chia cho bình phương chiều cao tính bằng mét (m). Chỉ số BMI cao có thể là dấu hiệu về việc thừa cân hoặc béo phì.</string>
+    <string name="chao3">Vui lòng nhập số liệu</string>
+    <string name="ten">Nhập Tên</string>
+    <string name="tuoi">Nhập Tuổi</string>
+    <string name="cao">Chiều cao</string>
+    <string name="nang">Cân nặng</string>
+    <string name="chiso">Chỉ số BMI</string>
+    <string name="danhgia">Đánh giá</string>
+    <string name="kiemtra">Kiểm Tra</string>
+    <string name="tuvan">Tư Vấn</string>
+    <string name="nhaplai">Nhập Lại</string>
+    <string name="gay">Gầy</string>
+    <string name="binhthuong">Bình thường</string>
+    <string name="map1">Béo phì cấp độ 1</string>
+    <string name="map2">Béo phì cấp độ 2</string>
+    <string name="map3">Béo phì cấp độ 3</string>
+    <string name="chontv">Mức độ đánh giá</string>
+</resources>

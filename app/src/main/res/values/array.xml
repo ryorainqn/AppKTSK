@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="chonTV1">
+        <item>@string/gay</item>
+        <item>@string/binhthuong</item>
+        <item>@string/map1</item>
+        <item>@string/map2</item>
+        <item>@string/map3</item>
+    </array>
+</resources>
