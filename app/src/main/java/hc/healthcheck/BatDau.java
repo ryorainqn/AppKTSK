@@ -1,4 +1,4 @@
- package hc.healthcheck;
+package hc.healthcheck;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -24,6 +24,7 @@ public class BatDau extends AppCompatActivity implements View.OnClickListener {
     private EditText editChieuCao, editCanNang;
     private TextView txtChiSo, txtDanhGia;
     RelativeLayout manHinh1;
+    final CharSequence[] items ={"Gầy","Bình Thường","Mập cấp độ 1","Mập Cấp Độ 2","Mập Cấp Độ 3"};
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,17 +76,30 @@ public class BatDau extends AppCompatActivity implements View.OnClickListener {
     }
     public void openTuVan() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(R.string.chontv).setItems(R.array.chonTV1, new DialogInterface.OnClickListener() {
+        builder.setTitle(R.string.chontv).setItems(items, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
-                        startApp(i);
+                        if(i == 0){
+                            Intent nintent = new Intent(BatDau.this, Xuattv.class);
+                            startActivity(nintent);
+                        }
+                        else if (i == 1){
+                            Intent nintent = new Intent(BatDau.this, Xuat2.class);
+                            startActivity(nintent);
+                        }
+                        else if (i == 2){
+                            Intent nintent = new Intent(BatDau.this, Xuat3.class);
+                            startActivity(nintent);
+                        }
+                        else if (i == 3){
+                            Intent nintent = new Intent(BatDau.this, Xuat4.class);
+                            startActivity(nintent);
+                        }
+                        else if (i == 4){
+                            Intent nintent = new Intent(BatDau.this, Xuat5.class);
+                            startActivity(nintent);
+                        }
                     }
-
-            private void startApp(int i) {
-                Intent intent = new Intent(BatDau.this, Chuoi.class);
-                intent.putExtra(Chuoi.KEY_DANHGIA,i);
-                startActivity(intent);
-            }
         });
         builder.create().show();
     }
