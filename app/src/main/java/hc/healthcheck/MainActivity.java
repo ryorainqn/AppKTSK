@@ -11,14 +11,10 @@ public class MainActivity extends AppCompatActivity {
     private Button btnBD;
     private Button btnGT;
     private Button btnThoat;
-    RelativeLayout manHinh;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        manHinh = (RelativeLayout) findViewById(R.id.activity_main);
-        manHinh.setBackgroundResource(R.drawable.cuahai);
-
         Button btnBD = (Button) findViewById(R.id.btnBD);
         btnBD.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnTH = (Button) findViewById(R.id.btnThoat);
         btnTH.setOnClickListener(new View.OnClickListener() {
-            @Override
+              @Override
             public void onClick(View v) {
                 finish();
             }

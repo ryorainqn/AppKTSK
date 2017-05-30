@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:id="@+id/activity_main"
@@ -15,21 +16,22 @@
         android:textSize="55sp"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="@color/trang"/>
+        android:textColor="@color/dotuoi"
+        android:id="@+id/textView7" />
     <Button
         android:layout_width="200sp"
         android:layout_height="wrap_content"
         android:text="@string/batdau"
         android:textStyle="bold"
         android:textSize="22sp"
-        android:layout_marginTop="300sp"
+        android:layout_marginTop="370sp"
         android:layout_gravity="center"
         android:id="@+id/btnBD"
         android:layout_centerHorizontal="true"/>
     <Button
         android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350sp"
+        android:layout_marginTop="420sp"
         android:text="@string/gioithieu"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -39,9 +41,19 @@
         android:layout_centerHorizontal="true"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400sp"
+        android:layout_marginTop="470sp"
         android:text="@string/thoat"
         android:textStyle="bold"
         android:textSize="22sp"
         android:id="@+id/btnThoat"/>
+
+    <ImageView
+        android:layout_width="330sp"
+        android:layout_height="330sp"
+        app:srcCompat="@drawable/hinhnen"
+        android:id="@+id/imageView6"
+        android:layout_alignBottom="@+id/btnBD"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>

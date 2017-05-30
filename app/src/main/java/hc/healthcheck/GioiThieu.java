@@ -10,12 +10,9 @@ import android.widget.LinearLayout;
  */
 
 public class GioiThieu extends AppCompatActivity {
-    LinearLayout manHinh2;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gioithieu);
-        manHinh2 = (LinearLayout) findViewById(R.id.gioi_thieu);
-        manHinh2.setBackgroundResource(R.drawable.cuahai);
     }
 }
