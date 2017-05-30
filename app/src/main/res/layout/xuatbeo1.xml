@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xuat3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hc.healthcheck.Xuat3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyên tắc chung:"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Từng bước giảm số lượng thực phẩm trong khẩu phần ăn hàng ngày. Trong khi vẫn đảm bảo cung cấp đủ dưỡng chất thiết yếu, protein, vitamin và khoáng chất theo độ tuổi. Mỗi tuần giảm 300kcal/ngày cho tới mức năng lượng đưa vào tương ứng với BMI:"
+        android:textSize="17sp"
+        android:layout_marginTop="28sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI từ 25 – 30: 1500 kcal/ngày"
+        android:textSize="17sp"
+        android:layout_marginTop="155sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giữ lối sống năng động và tăng cường tập luyện thể dục thể thao, tối thiểu 30 phút mỗi ngày."
+        android:textSize="17sp"
+        android:layout_marginTop="180sp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="400sp"
+        android:layout_height="300sp"
+        app:srcCompat="@drawable/beo1"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+
+</RelativeLayout>
