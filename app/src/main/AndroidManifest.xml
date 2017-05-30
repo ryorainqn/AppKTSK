@@ -23,22 +23,7 @@
         <activity android:name=".GioiThieu"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".Gay"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity android:name=".Xuat2"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity android:name=".Xuat3"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".Xuat4"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity android:name=".Xuat5"
+        <activity android:name=".Chuoi"
             android:screenOrientation="portrait">
 
         </activity>
